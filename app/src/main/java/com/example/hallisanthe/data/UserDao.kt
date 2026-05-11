@@ -1,0 +1,32 @@
+package com.example.hallisanthe.data
+
+import androidx.room.*
+
+@Dao
+interface UserDao {
+
+    @Insert
+    suspend fun insertUser(user: User)
+
+    @Query(
+        "SELECT * FROM users WHERE email = :email AND password = :password AND role = :role"
+    )
+    suspend fun login(
+        email: String,
+        password: String,
+        role: String
+    ): User?
+
+    @Query(
+        "SELECT * FROM users WHERE email = :email LIMIT 1"
+    )
+    suspend fun getUserByEmail(email: String): User?
+
+    @Query(
+        "UPDATE users SET password = :newPassword WHERE email = :email"
+    )
+    suspend fun updatePassword(
+        email: String,
+        newPassword: String
+    )
+}
