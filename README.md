@@ -7,7 +7,7 @@ The application helps village artisans showcase and sell their handmade products
 
 This project promotes the concept of **"Vocal for Local"** by connecting local artisans directly with buyers through a modern mobile platform.
 
----
+
 
 # 🎯 Problem Statement
 
@@ -16,7 +16,9 @@ Customers are usually unaware of available products unless they travel to those 
 
 Halli-Santhe Digital solves this problem by creating a digital catalog marketplace where artisan products can be discovered easily.
 
----
+
+# Screenshots
+<img width="1920" height="1080" alt="Untitled design (8)" src="https://github.com/user-attachments/assets/d36f1993-e44c-461c-8279-f88e05f4fb4c" />
 
 # ✨ Features
 
@@ -34,7 +36,7 @@ Halli-Santhe Digital solves this problem by creating a digital catalog marketpla
 - Change Password
 - Logout Functionality
 
----
+
 
 ## 🛍️ Customer Features
 
@@ -51,7 +53,7 @@ Halli-Santhe Digital solves this problem by creating a digital catalog marketpla
 - Change Password
 - Logout Functionality
 
----
+
 
 # 💬 Smart Chat Simulation
 
