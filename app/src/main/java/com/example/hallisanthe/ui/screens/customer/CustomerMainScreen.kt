@@ -31,7 +31,7 @@ fun CustomerMainScreen(
 
             NavigationBar {
 
-                // 🏠 HOME
+                // Home
                 NavigationBarItem(
                     selected = selectedTab == 0,
 
@@ -48,7 +48,7 @@ fun CustomerMainScreen(
                     }
                 )
 
-                // 💬 CHATS
+                // Chats
                 NavigationBarItem(
                     selected = selectedTab == 1,
 
@@ -65,7 +65,7 @@ fun CustomerMainScreen(
                     }
                 )
 
-                // 👤 PROFILE
+                // Profile
                 NavigationBarItem(
                     selected = selectedTab == 2,
 
@@ -87,17 +87,17 @@ fun CustomerMainScreen(
 
         when (selectedTab) {
 
-            // 🏠 HOME SCREEN
+            // Homescreen
             0 -> CustomerHomeScreen(
                 db = db,
 
                 modifier = Modifier.padding(padding)
             )
 
-            // 💬 CHAT SCREEN
+            // Chatscreen
             1 -> CustomerChatScreen()
 
-            // 👤 PROFILE SCREEN
+            // Profilescreen
             2 -> CustomerProfileScreen(
                 db = db,
 
