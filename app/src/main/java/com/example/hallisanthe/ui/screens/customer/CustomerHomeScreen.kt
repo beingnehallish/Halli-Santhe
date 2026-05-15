@@ -158,7 +158,7 @@ fun CustomerHomeScreen(
                 .verticalScroll(rememberScrollState())
         ) {
 
-            // 🔥 Header
+            // Header
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -235,7 +235,7 @@ fun CustomerHomeScreen(
 
             Spacer(modifier = Modifier.height(14.dp))
 
-            // 🏷️ Categories
+            // Categories
             Row(
                 modifier = Modifier
                     .horizontalScroll(rememberScrollState())
@@ -263,7 +263,7 @@ fun CustomerHomeScreen(
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            // 🔥 Sort
+            // Sort
             ExposedDropdownMenuBox(
                 expanded = sortExpanded,
 
@@ -319,7 +319,7 @@ fun CustomerHomeScreen(
 
             Spacer(modifier = Modifier.height(15.dp))
 
-            // ❌ Empty State
+            //  Empty State
             if (filteredProducts.isEmpty()) {
 
                 Box(
