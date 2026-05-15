@@ -67,7 +67,7 @@ fun CustomerProfileScreen(
             modifier = Modifier.fillMaxSize()
         ) {
 
-            // 🔥 Header
+            //Header
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -114,7 +114,7 @@ fun CustomerProfileScreen(
 
             Spacer(modifier = Modifier.height(30.dp))
 
-            // 📋 Main Card
+            // Main Card
             ElevatedCard(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -132,7 +132,7 @@ fun CustomerProfileScreen(
                     modifier = Modifier.padding(24.dp)
                 ) {
 
-                    // 📧 Account Info
+                    //Account Info
                     Text(
                         text = "Account Information",
                         style = MaterialTheme.typography.titleLarge,
@@ -163,7 +163,7 @@ fun CustomerProfileScreen(
 
                     Spacer(modifier = Modifier.height(28.dp))
 
-                    // 🔒 Security Section
+                    //Security Section
                     Text(
                         text = "Security",
                         style = MaterialTheme.typography.titleLarge,
@@ -220,7 +220,7 @@ fun CustomerProfileScreen(
 
                     Spacer(modifier = Modifier.height(24.dp))
 
-                    // 🚀 Change Password Button
+                    // Change Password Button
                     Button(
                         onClick = {
 
@@ -267,7 +267,7 @@ fun CustomerProfileScreen(
 
                     Spacer(modifier = Modifier.height(16.dp))
 
-                    // 🚪 Logout Button
+                    // Logout Button
                     OutlinedButton(
                         onClick = {
                             onLogout()
